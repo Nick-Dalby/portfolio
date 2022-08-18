@@ -1,0 +1,25 @@
+---
+import Icon from 'astro-icon';
+import data from '../data/projects.json';
+import '../styles/projects.css';
+import '../styles/tech-logos.css';
+
+---
+
+<div class="project-scroller snaps-inline">
+  {data.map(project => (<div class="project">
+    <h3>{project.title}</h3>
+    <img class="project-image" src={project.image + '/tr:w-800,h-450'}>
+    <p>{project.description}</p>
+    <div class="tech-logos">
+      {project.icons.map(icon => (<div class="tech-logo" data-tooltip={icon[0]}>
+        <Icon name={icon[1]} width={25} />
+      </div>))}
+    </div>
+    <div class="project-footer links">
+      {project.links.map(link => (<a href={link[1]} target={link[2]} rel="noopener">{link[0]}</a>
+      ))}
+    </div>
+  </div>))}
+
+</div>

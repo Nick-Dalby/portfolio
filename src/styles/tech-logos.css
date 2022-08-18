@@ -1,0 +1,59 @@
+.tech-logos {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: auto;
+}
+
+.tech-logo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transform-origin: center;
+}
+
+.tech-logo {
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.tech-logo::before,
+.tech-logo::after {
+  --scale: 0;
+  --tooltip-color: var(--gray-9);
+  --arrow-size: 10px;
+
+  font-size: 0.8rem;
+  position: absolute;
+  top: -0.25rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0))
+    scale(var(--scale));
+  transition: 50ms transform;
+  transform-origin: bottom center;
+}
+
+.tech-logo::before {
+  --translate-y: calc(-100% - var(--arrow-size));
+
+  content: attr(data-tooltip);
+  color: var(--gray-1);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: max-content;
+  text-align: center;
+  background: var(--tooltip-color);
+}
+
+.tech-logo:hover::before,
+.tech-logo:hover::after {
+  --scale: 1;
+}
+
+.tech-logo::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--tooltip-color);
+  transform-origin: top center;
+}

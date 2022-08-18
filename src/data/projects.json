@@ -1,0 +1,127 @@
+
+[
+  {
+    "title": "Films Cool:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/fs_e7N2iuSy6.jpg",
+    "description": "Client-side of a movie database app built with React. Using react-router to navigate views, axios to handle async http requests, redux for state management and styled components.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["html", "vscode-icons:file-type-html"],
+      ["css", "vscode-icons:file-type-css"],
+      ["react", "vscode-icons:file-type-reactjs"],
+      ["redux", "logos:redux"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/Films-Cool", "_blank"],
+      ["case study", "/films-cool", "_self"],
+      ["demo", "https://films-cool.netlify.app/", "_blank"]
+    ]
+  },
+  {
+    "title": "Meet App:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/meet_oRz4zmEEZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660805570056",
+    "description": "Meet-App is a serverless, progressive web application built with ReactJS using a test-driven development technique and utilises Google's Calendar and OAuth2 APIs.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["html", "vscode-icons:file-type-html"],
+      ["css", "vscode-icons:file-type-css"],
+      ["react", "vscode-icons:file-type-reactjs"],
+      ["nodejs", "logos:nodejs"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/Meet-App", "_blank"],
+      ["demo", "https://nick-dalby.github.io/Meet-App/", "_blank"]
+    ]
+  },
+  {
+    "title": "Grocery-List:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/grocery-list.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660806343696",
+    "description": "A simple list taking app built with React and Vite. Essentially just demo of 'useState' and 'useEffect' hooks, prop passing/destructuring and conditionals.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["html", "vscode-icons:file-type-html"],
+      ["css", "vscode-icons:file-type-css"],
+      ["react", "vscode-icons:file-type-reactjs"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/Grocery-List", "_blank"],
+      ["demo", "https://nick-dalby.github.io/Grocery-List/", "_blank"]
+    ]
+  },
+  {
+    "title": "Weather App:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/weather_ggizhkImr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660806681275",
+    "description": "Weather forcast app built with React, utilising OpenWeatherMap and RapidAPI GeoDB Cities APIs.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["html", "vscode-icons:file-type-html"],
+      ["css", "vscode-icons:file-type-css"],
+      ["react", "vscode-icons:file-type-reactjs"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/Weather-App", "_blank"],
+      ["demo", "https://nick-dalby.github.io/Weather-App/", "_blank"]
+    ]
+  },
+  {
+    "title": "Pokedex:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/pokedex_9y5-nVVHr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660806984192",
+    "description": "Simple Pokedex app utilising Boostrap styles, gets a list of Pokemon from PokéAPI and displays their stats.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["html", "vscode-icons:file-type-html"],
+      ["css", "vscode-icons:file-type-css"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/Pokedex", "_blank"],
+      ["demo", "https://nick-dalby.github.io/Pokedex/", "_blank"]
+    ]
+  },
+  {
+    "title": "MovieAPI:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/movie-code_T9f7IerAr.jpg",
+    "description": "Server-side component of a MovieDB app. A REST API utilising NodeJs and Express, defining endpoints which allow users to GET, PUT, POST or DELETE data from MongoDB.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["nodejs", "logos:nodejs"],
+      ["mongoDB", "vscode-icons:file-type-mongo"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/movieAPI", "_blank"],
+      [
+        "docs",
+        "https://afternoon-badlands-59179.herokuapp.com/documentation.html", "_blank"
+      ]
+    ]
+  },
+  {
+    "title": "MyFlix:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/mf_0jJyOZdZ2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660807300822",
+    "description": "Rebuild of the 'Films Cool' app user interface using the Angular framework and Typescript. Demonstrates the Angular authentication flow, connects to the MovieAPI and MongoDB.",
+    "icons": [
+      ["typescript", "logos:typescript-icon"],
+      ["angular", "vscode-icons:file-type-angular"],
+      ["nodejs", "logos:nodejs"],
+      ["mongoDB", "vscode-icons:file-type-mongo"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/myFlix-Angular", "_blank"],
+      ["demo", "https://nick-dalby.github.io/myFlix-Angular/welcome", "_blank"]
+    ]
+  },
+  {
+    "title": "Chat App:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/chat_spugucUlF.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660808283052",
+    "description": "React Native mobile chat app utilising the gifted chat library, built with Expo and a Firebase Firestore database.",
+    "icons": [
+      ["typescript", "logos:typescript-icon"],
+      ["angular", "vscode-icons:file-type-angular"],
+      ["nodejs", "logos:nodejs"],
+      ["mongoDB", "vscode-icons:file-type-mongo"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/Chat-App", "_blank"],
+      ["demo", "/chat-app-demo", "_self"]
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+body {
+  background-color: var(--lightgray);
+}
+header {
+  z-index: 2;
+}
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+
+li {
+  font-style: italic;
+}
+
+ul {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero {
+  background-image: url(https://ik.imagekit.io/o8k4oijpo/fs/fs-hero-1_Bjee38p5a.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 70vw;
+}
+
+.hero-footer {
+background-image: url(https://ik.imagekit.io/o8k4oijpo/fs/fs-hero-2.jpg);
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.section:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.section div.text,
+.section div.image {
+  width: 50%;
+}
+
+.section div.text {
+  padding: 20rem 4rem;
+  margin: auto;
+}
+
+.section div.image {
+  height: 100vh;
+  background-image: url(https://ik.imagekit.io/o8k4oijpo/fs/fs-panel-0_ggKqg5KRo.jpg);
+  background-size: cover;
+  background-position: center;
+
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+.section div.image-2 {
+  background-image: url(https://ik.imagekit.io/o8k4oijpo/fs/fs-code_IxTmP1hOJ.jpg);
+}
+
+.section div.image-3 {
+  background-image: url(https://ik.imagekit.io/o8k4oijpo/fs/fs-panel-0_ggKqg5KRo.jpg);
+}
+
+.project-footer {
+  justify-content: start;
+  gap: 0.5rem;
+}
+
+@media (min-width: 1280px) {
+  .hero {
+    height: 100vh;
+  }
+}
+
+@media (max-width: 900px) {
+  .section {
+    display: block;
+  }
+  .section div.image {
+    height: 130vw;
+  }
+  .section div.text {
+    padding: 2rem;
+  }
+  .section div.text,
+  .section div.image {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    border-bottom: 2px solid black;
+    position: sticky;
+    position: -webkit-sticky;
+  }
+}

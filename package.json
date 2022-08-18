@@ -1,0 +1,28 @@
+{
+  "name": "@example/basics",
+  "version": "0.0.1",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "astro": "^1.0.5",
+    "autoprefixer": "^10.4.8",
+    "open-props": "^1.4.12",
+    "postcss": "^8.4.16",
+    "postcss-jit-props": "^1.0.7",
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.5.0"
+  },
+  "dependencies": {
+    "@julian_cataldo/astro-seo": "^0.13.1",
+    "astro-icon": "^0.7.3"
+  }
+}

@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  /* Colors */
+  --lightgray: var(--gray-1);
+  --cyan: var(--cyan-2);
+  --yellow: var(--yellow-1);
+  --green: var(--green-1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  background-color: var(--lightgray);
+  transition: background-color 0.3s;
+  color: var(--gray-9);
+  width: 100vw;
+}
+
+a {
+  text-decoration: none;
+  color: var(--gray-9);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h1, h2 {
+  font-size: var(--font-size-fluid-1);
+}
+
+p, li {
+  font-size: var(--font-size-fluid-0);
+}
+
+header, footer {
+  width: 100%;
+  padding: 1.7rem 2.2rem;
+
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  bottom: 0;
+}
+
+nav a:hover {
+  font-weight: 600;
+}
+
+nav a.projects.active {
+  text-decoration: underline wavy var(--blue-6) 3px;
+  text-underline-offset: 0.5rem;
+}
+nav a.about.active {
+  text-decoration: underline dotted var(--orange-7) 3px;
+  text-underline-offset: 0.5rem;
+}
+nav a.contact.active {
+  text-decoration: underline solid var(--grape-5) 3px;
+  text-underline-offset: 0.5rem;
+}
+
+div.eyes {
+  position: relative;
+}
+
+div.iris {
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
+div.iris-right {
+  left: 25px;
+}
+
+div.iris div {
+  position: relative;
+  top: 2px;
+  left: 2px;
+  width: 6px;
+  height: 6px;
+  background-color: var(--gray-9);
+  border-radius: 3px;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-inline-size: var(--size-content-3);
+  margin-inline: 2rem;
+}
+
+#about p {
+  line-height: 2;
+  padding-block: 0.5rem;
+}
+
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-container li {
+  list-style: none;
+}
+
+.contact-container li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.contact-container a:hover {
+  text-decoration: underline;
+}
+
+.contact-container a .contact-icon {
+  transform-origin: center;
+  transition: transform 0.2s;
+}
+
+.contact-container a:hover .contact-icon {
+  transform: scale(1.2);
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.links a,
+.btn {
+  padding: 0.3em 0.5rem;
+  background-color: var(--gray-4);
+  transition: all 0.2s ease;
+}
+
+.links a:hover,
+.btn:hover {
+  background-color: var(--gray-9);
+  color: var(--gray-1);
+}
+
+.btn {
+  border: none;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.chat-demo {
+  background: var(--yellow-1);
+}
+
+.frame {
+  background: var(--gray-1);
+  border: 2px solid var(--gray-9);
+  padding: 1.5rem;
+  box-shadow: var(--yellow-2) 0px 4px 12px;
+
+}

@@ -1,0 +1,117 @@
+---
+import Layout from '../layouts/Layout.astro';
+import '../styles/films-cool.css';
+
+---
+
+<Layout title="Films Cool Case Study" topRightNav="back to projects">
+  <div class="hero"></div>
+  <div class="section">
+    <div class="text">
+      <h2>Overview:</h2>
+      <p>
+        This project is a full-stack web app providing access to a database of
+        movies, including descriptions, plus director and genre information.
+        Users can create an account, sign-in and add or remove movies from a
+        list of their favourites.
+      </p>
+      <h2>Purpose and Context:</h2>
+      <p>
+        As part of CareerFoundry's full-stack programme, the goal of this
+        project was to learn the MERN stack technologies and tools and to
+        progress my JavaScript development skills.
+      </p>
+      <h2>Objective:</h2>
+      <p>
+        The main ambition of the project was to build a complete full-stack
+        web app to demonstrate my coding ability, which I can then add to my
+        portfolio. The first target was to create server-side components with
+        NodeJs and Express - a REST API, plus a database built using MongoDB.
+        Secondly, I was to use ReactJS for the client-side of the app.
+      </p>
+    </div>
+    <div class="image image-1"></div>
+  </div>
+  <div class="section">
+    <div class="text">
+      <h2>Server-side:</h2>
+      <p>
+        I created a REST API utilising NodeJs and Express, defining endpoints
+        which allow users to GET, PUT, POST or DELETE data from a
+        non-relational database built with MongoDB.
+      </p>
+      <ul>
+        <li>movie and user data is provided in JSON format</li>
+        <li>business logic modelled with Mongoose</li>
+        <li>endpoints were tested using Postman</li>
+        <li>
+          authentication and authorisation implemented using basic HTTP plus
+          JWT authentication
+        </li>
+        <li>added data validation logic</li>
+        <li>hosted the project using Heroku</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/Nick-Dalby/movieAPI" target="_blank">github</a>
+        <a href="https://afternoon-badlands-59179.herokuapp.com/documentation.html" target="_blank">docs</a>
+      </div>
+    </div>
+    <div class="image image-2"></div>
+  </div>
+  <div class="section">
+    <div class="text">
+      <h2>Client-side:</h2>
+      <p>
+        Created with React, this is the interface of the app, allowing users
+        to make requests to and receive responses from the server-side.
+      </p>
+      <ul>
+        <li>
+          it's an SPA (single-page-application), using react-router to
+          navigate between views
+        </li>
+
+        <li>Create-React-App was used as a build tool</li>
+
+        <li>used Axios to make asynchronous HTTP requests</li>
+
+        <li>utilised Redux to handle state</li>
+
+        <li>employed the Styled-Components UI library</li>
+
+        <li>implemented logic to filter movies</li>
+      </ul>
+      <div class="links">
+        <a href="https://github.com/Nick-Dalby/Films-Cool" target="_blank">github</a>
+        <a href="https://films-cool.netlify.app/" target="_blank">live site</a>
+      </div>
+    </div>
+    <div class="image image-3"></div>
+  </div>
+
+
+  
+  <div class="section">
+    <div class="text">
+      <h2>Reflections:</h2>
+      <h3>Challenges?</h3>
+      <p>
+        Besides navigating dependencies errors
+        and getting to grips with the syntax of React, perhaps the most
+        challenging part of the project in particular was dealing with state
+        and grasping and implementing Redux.
+      </p>
+      <p>
+        However, studying each aspect I didn't fully understand and practicing
+        really helped to solidify the concepts for me.
+      </p>
+      <h3>Next Steps?</h3>
+      <ul>
+        <li>improve the UI/ add more views</li>
+        <li>link to a more in depth movie database</li>
+        <li>refactor/simplify the code</li>
+      </ul>
+    </div>
+  </div>
+  <div class="hero hero-footer"></div>
+</Layout>

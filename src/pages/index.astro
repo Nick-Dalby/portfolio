@@ -1,0 +1,75 @@
+---
+
+import Icon from 'astro-icon';
+import Projects from '../components/Projects.astro';
+import Layout from '../layouts/Layout.astro';
+
+
+---
+
+<Layout title="Nick Dalby" topRightNav="projects">
+	<main>
+		<section id="home" data-color="var(--lightgray)">
+			<h1>hello, i'm Nick...</h1>
+			<p>a Berlin-based Web Developer <span>👨‍💻</span></p>
+		</section>
+
+		<section id="about" data-color="var(--cyan)">
+			<div class="container">
+				<h2>about me:</h2>
+				<p>
+					Originally from the north of England and now living in Berlin, I
+					took the opportunity to pivot to code after previous code-adjacent
+					roles often left me thinking...</p>
+				<p><em>'I wish I could just do this myself'</em></p>
+				<p>Well, it turns out I can!</p>
+				<p>My toolkit includes Javascript, HTML and CSS - with skills
+					right across the stack - and a mindset fuelled by curiosity and
+					creativity.
+				</p>
+			</div>
+		</section>
+
+		<section id="projects" data-color="var(--yellow)">
+			<h2>projects:</h2>
+			<Projects />
+
+		</section>
+
+		<section id="contact" data-color="var(--green)">
+			<div class="contact-container">
+				<h2>get in touch:</h2>
+				<ul>
+					<li>
+						<a href="https://github.com/Nick-Dalby" target="_blank">
+							<Icon name="bi:github" width={18} class="contact-icon" />github
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/nick-dalby/" target="_blank">
+							<Icon name="logos:linkedin-icon" width={18} class="contact-icon" />linkedin
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/nickdalby_" target="_blank">
+							<Icon name="logos:twitter" width={18} class="contact-icon" />@nickdalby_
+						</a>
+					</li>
+					<li>
+						<a href="mailto:hello@nickdalby.com">
+							<Icon name="fxemoji:openmailboxraised" width={18} class="contact-icon" />hello@nickdalby.com
+						</a>
+					</li>
+				</ul>
+
+
+
+
+			</div>
+		</section>
+	</main>
+	<footer>
+		<nav><a href="#about" class="about">about</a></nav>
+		<nav><a href="#contact" class="contact">contact</a></nav>
+	</footer>
+</Layout>

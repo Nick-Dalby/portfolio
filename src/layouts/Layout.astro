@@ -1,0 +1,59 @@
+---
+export interface Props {
+	title: string;
+	topRightNav: string;
+}
+
+
+const { title, topRightNav } = Astro.props as Props;
+import SEO from "@julian_cataldo/astro-seo/SEO.astro";
+import '../styles/global.css'
+import 'open-props'
+
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<SEO image={"/icon-512.png"} title={`${title}`} description={"Berlin-based Web Developer"} siteName={`${title}`} />
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" href="/favicon.ico" sizes="any" />
+	<link rel="icon" href="/icon.svg" type="image/svg+xml" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<link rel="manifest" href="/manifest.webmanifest" />
+
+	<meta name="generator" content={Astro.generator} />
+	<title>{title}</title>
+	
+</head>
+
+<body>
+	<header>
+		<nav class="logo-eyes">
+			<a href="/#home" class="home">
+				<div class="eyes">
+					<img src="/eyes.svg" alt="eyes" />
+					<div class="iris iris-left">
+						<div></div>
+					</div>
+					<div class="iris iris-right">
+						<div></div>
+					</div>
+				</div>
+			</a>
+		</nav>
+		<nav><a href="/#projects" class="projects">{topRightNav}</a></nav>
+	</header>
+	<slot />
+	<script>
+		  import '../scripts/eyes.js'
+			import '../scripts/main.js'
+	</script>
+
+
+</body>
+
+</html>
