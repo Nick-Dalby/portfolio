@@ -108,7 +108,12 @@ background-image: url(https://ik.imagekit.io/o8k4oijpo/fs/fs-hero-2.jpg);
 @media (max-width: 500px) {
   header {
     border-bottom: 2px solid black;
-    position: sticky;
-    position: -webkit-sticky;
+    background-color: var(--lightgray);
+    background-color: #ffbccc;
+    top: 0;
+  }
+
+  .hero-header {
+    margin-top: 75px
   }
 }
