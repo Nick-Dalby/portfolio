@@ -45,15 +45,18 @@ a {
   user-select: none;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-size: var(--font-size-fluid-1);
 }
 
-p, li {
+p,
+li {
   font-size: var(--font-size-fluid-0);
 }
 
-header, footer {
+header,
+footer {
   width: 100%;
   padding: 1.7rem 2.2rem;
 
@@ -126,7 +129,6 @@ section {
   padding-block: 0.5rem;
 }
 
-
 .contact-container {
   display: flex;
   flex-direction: column;
@@ -193,5 +195,17 @@ section {
   border: 2px solid var(--gray-9);
   padding: 1.5rem;
   box-shadow: var(--yellow-2) 0px 4px 12px;
+}
 
+#contact {
+  position: relative;
+}
+.impressum a {
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  font-size: 0.8rem;
+  color: var(--gray-5);
+  bottom: 30px;
+  z-index: 2;
 }

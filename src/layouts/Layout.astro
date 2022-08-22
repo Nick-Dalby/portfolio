@@ -2,10 +2,11 @@
 export interface Props {
 	title: string;
 	topRightNav: string;
+	topRightPath: string;
 }
 
 
-const { title, topRightNav } = Astro.props as Props;
+const { title, topRightNav, topRightPath } = Astro.props as Props;
 import SEO from "@julian_cataldo/astro-seo/SEO.astro";
 import '../styles/global.css'
 import 'open-props'
@@ -45,7 +46,7 @@ import 'open-props'
 				</div>
 			</a>
 		</nav>
-		<nav><a href="/#projects" class="projects">{topRightNav}</a></nav>
+		<nav><a href={`${topRightPath}`} class="projects">{topRightNav}</a></nav>
 	</header>
 	<slot />
 	<script>
