@@ -1,4 +1,3 @@
-
 [
   {
     "title": "Films Cool:",
@@ -15,6 +14,21 @@
       ["github", "https://github.com/Nick-Dalby/Films-Cool", "_blank"],
       ["case study", "/films-cool", "_self"],
       ["demo", "https://films-cool.netlify.app/", "_blank"]
+    ]
+  },
+  {
+    "title": "React Auth Flow:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/react-auth-flow_coKyKPHM4.jpg",
+    "description": "React component to demo form validation with accessibility, authentication and authorisation using JTW access/refresh tokens, protected routes and custom hooks. Axios is used to call custom endpoints of a REST API connected to a MongoDB.",
+    "icons": [
+      ["mongoDB", "vscode-icons:file-type-mongo"],
+      ["express", "simple-icons:express"],
+      ["react", "vscode-icons:file-type-reactjs"],
+      ["nodejs", "logos:nodejs"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/react-auth-flow", "_blank"],
+      ["demo", "https://tranquil-cat-2f4ccd.netlify.app/", "_blank"]
     ]
   },
   {
@@ -84,13 +98,15 @@
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
       ["nodejs", "logos:nodejs"],
+      ["express", "simple-icons:express"],
       ["mongoDB", "vscode-icons:file-type-mongo"]
     ],
     "links": [
       ["github", "https://github.com/Nick-Dalby/movieAPI", "_blank"],
       [
         "docs",
-        "https://afternoon-badlands-59179.herokuapp.com/documentation.html", "_blank"
+        "https://afternoon-badlands-59179.herokuapp.com/documentation.html",
+        "_blank"
       ]
     ]
   },
