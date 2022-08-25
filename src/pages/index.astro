@@ -8,7 +8,8 @@ import Layout from "../layouts/Layout.astro";
 	<main>
 		<section id="home" data-color="var(--lightgray)">
 			<h1>hello, i'm Nick...</h1>
-			<p>a Berlin-based Web Developer <span>👨‍💻</span></p>
+			<p>a Berlin-based Web Developer</p>
+			<div class="clock"><p class="time"></p></div>
 		</section>
 
 		<section id="about" data-color="var(--cyan)">
@@ -77,3 +78,6 @@ import Layout from "../layouts/Layout.astro";
 		<nav><a href="#contact" class="contact">contact</a></nav>
 	</footer>
 </Layout>
+<script>
+	import '../scripts/times.js'
+</script>

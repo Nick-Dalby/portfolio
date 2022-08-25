@@ -209,3 +209,19 @@ section {
   bottom: 30px;
   z-index: 2;
 }
+
+.clock p:before {
+  content: '';
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  background-color: var(--gray-8);
+  border-radius: 50%;
+  margin-right: 0.5em;
+  vertical-align: -0.06em;
+  transition: background-color 0.5s;
+}
+
+.clock.open p:before{
+  background-color: var(--green-6);
+}
