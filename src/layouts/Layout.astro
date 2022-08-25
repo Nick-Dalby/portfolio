@@ -17,7 +17,7 @@ import 'open-props'
 <html lang="en">
 
 <head>
-	<SEO image={"/icon-512.png"} title={`${title}`} description={"Berlin-based Web Developer"} siteName={`${title}`} />
+	<SEO image={"/icon-512.png"} title={title} description={"Berlin-based Web Developer"} siteName={title} />
 
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width" />
@@ -46,7 +46,7 @@ import 'open-props'
 				</div>
 			</a>
 		</nav>
-		<nav><a href={`${topRightPath}`} class="projects">{topRightNav}</a></nav>
+		<nav><a href={topRightPath} class="projects">{topRightNav}</a></nav>
 	</header>
 	<slot />
 	<script>
