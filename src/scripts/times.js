@@ -4,7 +4,6 @@ const clock = document.querySelector('.clock')
 
 const updateTime = () => {
   const now = DateTime.now().setZone("Europe/Berlin")
-  // console.log(now);
   const output = document.querySelector('.time')
   output.innerText = now.toFormat('HH:mm:ss')
 
@@ -16,6 +15,4 @@ const updateTime = () => {
 
 updateTime()
 
-setInterval(() => {
-  updateTime()
-},1000)
+setInterval(updateTime, 1000)
