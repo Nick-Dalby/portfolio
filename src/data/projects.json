@@ -19,7 +19,7 @@
   {
     "title": "React Auth Flow:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/react-auth-flow_coKyKPHM4.jpg",
-    "description": "React component to demo form validation with accessibility, authentication and authorisation using JTW access/refresh tokens, protected routes and custom hooks. Axios is used to call custom endpoints of a REST API connected to a MongoDB.",
+    "description": "Accessible React form, with validation, authentication and authorisation using JTW, protected routes and custom hooks. used Axios to call a custom REST APIs endpoints, connected to a MongoDB.",
     "icons": [
       ["mongoDB", "vscode-icons:file-type-mongo"],
       ["express", "simple-icons:express"],
