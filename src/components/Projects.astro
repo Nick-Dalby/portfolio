@@ -11,7 +11,7 @@ import "../styles/tech-logos.css";
       <div class="project">
         <div class="project-main">
           <h3>{project.title}</h3>
-          <img class="project-image" src={project.image + "/tr:w-800,h-450"} />
+          <img class={`project-image ${project.bgColor}`} src={project.image + "/tr:w-800,h-450"} />
           <p class="description">{project.description}</p>
         </div>
 

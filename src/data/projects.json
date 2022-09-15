@@ -2,6 +2,7 @@
   {
     "title": "Films Cool:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/fs_e7N2iuSy6.jpg",
+    "bgColor": "bg-yellow",
     "description": "Client-side of a movie database app built with React. Using react-router to navigate views, axios to handle async http requests, redux for state management and styled components.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
@@ -19,6 +20,7 @@
   {
     "title": "React Auth Flow:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/react-auth-flow_coKyKPHM4.jpg",
+    "bgColor": "bg-yellow",
     "description": "Accessible React form, with validation, authentication and authorisation using JTW, protected routes and custom hooks. used Axios to call a custom REST APIs endpoints, connected to a MongoDB.",
     "icons": [
       ["mongoDB", "vscode-icons:file-type-mongo"],
@@ -31,9 +33,65 @@
       ["demo", "https://tranquil-cat-2f4ccd.netlify.app/", "_blank"]
     ]
   },
+
+  {
+    "title": "Ray's Pizza:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/rays-pizza_vdVWeiyrRh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663256510366",
+    "bgColor": "bg-pink",
+    "description": "Using Contentful CMS as the data source, this React page connects to their API to fetch then display, categorise and filter each menu item.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["contentful", "logos:contentful"],
+      ["react", "vscode-icons:file-type-reactjs"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/rays-pizza", "_blank"],
+      ["demo", "https://rays-pizza.netlify.app/", "_blank"]
+    ]
+  },
+
+  {
+    "title": "Google Events Dash:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/events-dash_3XHuEvkNM.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663253768406",
+    "bgColor": "bg-yellow",
+    "description": "React app utilising Tailwind and Netlify functions. Dynamic calendar data is fetched from a Google calendar API endpoint, mapped to cards and made filterable via a slider.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["netlify functions", "logos:netlify"],
+      ["tailwind", "logos:tailwindcss-icon"],
+      ["react", "vscode-icons:file-type-reactjs"]
+    ],
+    "links": [
+      [
+        "github",
+        "https://github.com/Nick-Dalby/react-events-dashboard",
+        "_blank"
+      ],
+      ["demo", "https://react-events-dash.netlify.app/", "_blank"]
+    ]
+  },
+
+  {
+    "title": "DeepL Translator:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/translator_Ch43ioRksC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663255656325",
+    "bgColor": "bg-blue",
+    "description": "A quick React app to explore the DeepL text translator API. Using an express server as a relay to call the API, securing the auth key and adding a rate limiter. ",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["nodejs", "logos:nodejs"],
+      ["css", "vscode-icons:file-type-css"],
+      ["react", "vscode-icons:file-type-reactjs"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/translator", "_blank"],
+      ["demo", "https://zesty-moxie-726a47.netlify.app/", "_blank"]
+    ]
+  },
+
   {
     "title": "Meet App:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/meet_oRz4zmEEZ.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660805570056",
+    "bgColor": "bg-yellow",
     "description": "Meet-App is a serverless, progressive web application built with ReactJS using a test-driven development technique and utilises Google's Calendar and OAuth2 APIs.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
@@ -50,6 +108,7 @@
   {
     "title": "Grocery-List:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/grocery-list.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660806343696",
+    "bgColor": "bg-yellow",
     "description": "A simple list taking app built with React and Vite. Essentially just demo of 'useState' and 'useEffect' hooks, prop passing/destructuring and conditionals.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
@@ -65,6 +124,7 @@
   {
     "title": "Weather App:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/weather_ggizhkImr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660806681275",
+    "bgColor": "bg-yellow",
     "description": "Weather forcast app built with React, utilising OpenWeatherMap and RapidAPI GeoDB Cities APIs.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
@@ -80,6 +140,7 @@
   {
     "title": "Pokedex:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/pokedex_9y5-nVVHr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660806984192",
+    "bgColor": "bg-yellow",
     "description": "Simple Pokedex app utilising Boostrap styles, gets a list of Pokemon from PokéAPI and displays their stats.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
@@ -94,6 +155,7 @@
   {
     "title": "MovieAPI:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/movie-code_T9f7IerAr.jpg",
+    "bgColor": "bg-yellow",
     "description": "Server-side component of a MovieDB app. A REST API utilising NodeJs and Express, defining endpoints which allow users to GET, PUT, POST or DELETE data from MongoDB.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
@@ -113,6 +175,7 @@
   {
     "title": "MyFlix:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/mf_0jJyOZdZ2.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660807300822",
+    "bgColor": "bg-yellow",
     "description": "Rebuild of the 'Films Cool' app user interface using the Angular framework and Typescript. Demonstrates the Angular authentication flow, connects to the MovieAPI and MongoDB.",
     "icons": [
       ["typescript", "logos:typescript-icon"],
@@ -128,6 +191,7 @@
   {
     "title": "Chat App:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/chat_spugucUlF.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660808283052",
+    "bgColor": "bg-yellow",
     "description": "React Native mobile chat app utilising the gifted chat library, built with Expo and a Firebase Firestore database.",
     "icons": [
       ["typescript", "logos:typescript-icon"],
