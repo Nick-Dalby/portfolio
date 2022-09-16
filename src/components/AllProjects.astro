@@ -5,9 +5,9 @@ import '../styles/projects.css'
 import '../styles/tech-logos.css'
 ---
 
-<div class="project-scroller snaps-inline">
+<div class="all-projects">
   {
-    data.slice(0, 5).map((project) => (
+    data.map((project) => (
       <div class="project">
         <div class="project-main">
           <h3>{project.title}</h3>
@@ -38,21 +38,5 @@ import '../styles/tech-logos.css'
     ))
   }
 
-  <div class="project end-project">
-    <div class="project-main">
-      <h3>More projects:</h3>
-      <p class="description">
-        Follow the link for more projects or head over to my github profile!
-      </p>
-    </div>
 
-    <div class="project-footer">
-      <div class="project-links links">
-        <a href="/projects">projects</a>
-        <a href="https://github.com/Nick-Dalby" rel="noopener" target="_blank"
-          >github
-        </a>
-      </div>
-    </div>
-  </div>
 </div>

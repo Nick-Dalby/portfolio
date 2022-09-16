@@ -59,7 +59,7 @@ header,
 footer {
   width: 100%;
   padding: 1.7rem 2.2rem;
-
+  z-index: 10;
   display: flex;
   position: fixed;
   justify-content: space-between;
@@ -222,6 +222,6 @@ section {
   transition: background-color 0.5s;
 }
 
-.clock.open p:before{
+.clock.open p:before {
   background-color: var(--green-6);
 }

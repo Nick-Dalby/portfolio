@@ -87,6 +87,12 @@ body {
   transition: transform 250ms;
   -moz-transition: none;
 }
+
+.end-project {
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
 .project-main {
   display: flex;
   flex-direction: column;
@@ -118,11 +124,30 @@ body {
 }
 
 .bg-yellow {
-  background-color: #FFE689;
+  background-color: #ffe689;
 }
 .bg-blue {
- background-color: #9EE1F6;
+  background-color: #9ee1f6;
 }
 .bg-pink {
-  background-color: #FFBCCC;
+  background-color: #ffbccc;
+}
+
+.all-projects {
+  max-width: 750px;
+  display: grid;
+  gap: 2rem;
+  margin: 5rem 1rem;
+}
+
+.all-projects .project {
+  min-width: 330px;
+  max-width: 400px;
+}
+
+@media (min-width: 700px) {
+  .all-projects {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 5rem 2rem;
+  }
 }
