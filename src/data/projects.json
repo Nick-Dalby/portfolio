@@ -21,7 +21,7 @@
     "title": "React Auth Flow:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/react-auth-flow_coKyKPHM4.jpg",
     "bgColor": "bg-yellow",
-    "description": "Accessible React form, with validation, authentication and authorisation using JTW, protected routes and custom hooks. used Axios to call a custom REST APIs endpoints, connected to a MongoDB.",
+    "description": "Accessible React form, with validation, authentication and authorisation using JTW, protected routes and custom hooks. Used Axios to call a custom REST APIs endpoints, connected to a MongoDB.",
     "icons": [
       ["mongoDB", "vscode-icons:file-type-mongo"],
       ["express", "simple-icons:express"],
@@ -125,7 +125,7 @@
     "title": "Weather App:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/weather_ggizhkImr.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1660806681275",
     "bgColor": "bg-yellow",
-    "description": "Weather forcast app built with React, utilising OpenWeatherMap and RapidAPI GeoDB Cities APIs.",
+    "description": "Weather forecast app built with React, utilising OpenWeatherMap and RapidAPI GeoDB Cities APIs.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
       ["html", "vscode-icons:file-type-html"],
