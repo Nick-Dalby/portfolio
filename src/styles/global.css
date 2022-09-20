@@ -6,6 +6,7 @@
   --cyan: var(--cyan-2);
   --yellow: var(--yellow-1);
   --green: var(--green-1);
+  --pink: var(--pink-3);
 }
 
 *,
@@ -224,4 +225,34 @@ section {
 
 .clock.open p:before {
   background-color: var(--green-6);
+}
+
+section#tweets {
+  margin-top: 5rem;
+}
+
+.tweet-container {
+  margin-top: 1rem;
+  width: clamp(16rem, 90vw, 70rem);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(330px, 45%), 2fr));
+  gap: 1rem;
+}
+
+.tweet {
+  border: 3px solid black;
+  padding: 1rem;
+  background-color: var(--grape-1);
+  display: flex;
+  flex-direction: column;
+}
+
+.twot {
+  font-size: var(--font-size-fluid-0);
+  line-height: 1.8;
+}
+
+.tweet-time {
+  align-self: flex-end;
+  margin-top: auto;
 }

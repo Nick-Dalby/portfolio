@@ -1,0 +1,45 @@
+---
+import linkifyHtml from 'linkify-html'
+import 'linkify-plugin-hashtag'
+import 'linkify-plugin-mention'
+import * as linkify from 'linkifyjs'
+import { DateTime } from 'luxon'
+
+import Autolinker from 'autolinker';
+
+const options = {
+  rel: 'noopener',
+  // target: "_blank",
+  // target: "_parent",
+  defaultProtocol: 'https',
+  formatHref: {
+    hashtag: (href) => 'https://twitter.com/hashtag/' + href.substr(1),
+    mention: (href) => 'https://twitter.com' + href,
+  },
+}
+
+const response = await fetch(
+  'https://api-proxy-eight.vercel.app/tweets/1552701398944473088/6'
+)
+const tweets = await response.json()
+
+
+---
+
+<div class="tweet-container">
+  {
+    tweets.data.map((tweet) => (
+      <div class="tweet">
+        {tweet.text.split(/\n/).map((twot) => (
+          <p class="twot">{twot}</p>
+
+        ))}
+        <p class="tweet-time">
+          {DateTime.fromISO(tweet.created_at)
+            .setLocale('de')
+            .toLocaleString(DateTime.DATETIME_MED)}
+        </p>
+      </div>
+    ))
+  }
+</div>

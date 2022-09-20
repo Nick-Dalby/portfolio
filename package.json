@@ -24,6 +24,11 @@
   "dependencies": {
     "@julian_cataldo/astro-seo": "^0.13.1",
     "astro-icon": "^0.7.3",
+    "autolinker": "^4.0.0",
+    "linkify-html": "^4.0.0",
+    "linkify-plugin-hashtag": "^4.0.0",
+    "linkify-plugin-mention": "^4.0.0",
+    "linkifyjs": "^4.0.0",
     "luxon": "^3.0.1"
   }
 }

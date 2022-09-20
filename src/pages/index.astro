@@ -1,83 +1,111 @@
 ---
-import Icon from "astro-icon";
-import Projects from "../components/Projects.astro";
-import Layout from "../layouts/Layout.astro";
+import Icon from 'astro-icon'
+import Projects from '../components/Projects.astro'
+import Tweets from '../components/Tweets.astro'
+import Layout from '../layouts/Layout.astro'
 ---
 
 <Layout title="Nick Dalby" topRightNav="projects" topRightPath="#projects">
-	<main>
-		<section id="home" data-color="var(--lightgray)">
-			<h1>hello, i'm Nick...</h1>
-			<p>a Berlin-based Web Developer</p>
-			<div class="clock"><p class="time"></p></div>
-		</section>
+  <main>
+    <section id="home" data-color="var(--lightgray)">
+      <h1>hello, i'm Nick...</h1>
+      <p>a Berlin-based Web Developer</p>
+      <div class="clock"><p class="time"></p></div>
+    </section>
 
-		<section id="about" data-color="var(--cyan)">
-			<div class="container">
-				<h2>about me:</h2>
-				<p>
-					Originally from the north of England and now living in Berlin, I took
-					the opportunity to pivot to code after previous code-adjacent roles
-					often left me thinking...
-				</p>
-				<p><em>'I wish I could just do this myself'</em></p>
-				<p>Well, it turns out I can!</p>
-				<p>
-					My toolkit includes Javascript, React, NodeJs, HTML and CSS - with skills right
-					across the stack - and a mindset fuelled by curiosity and creativity.
-				</p>
-				<p>View my <u>
-				<a href="https://drive.google.com/file/d/1VDLeyn1EnyJPh05-wucJf9D4jXgHBm-c/view?usp=sharing" target="_blank" rel="noopener">resume</a></u>.</p>
-			</div>
-		</section>
+    <section id="about" data-color="var(--cyan)">
+      <div class="container">
+        <h2>about me:</h2>
+        <p>
+          Originally from the north of England and now living in Berlin, I took
+          the opportunity to pivot to code after previous code-adjacent roles
+          often left me thinking...
+        </p>
+        <p><em>'I wish I could just do this myself'</em></p>
+        <p>Well, it turns out I can!</p>
+        <p>
+          My toolkit includes Javascript, React, NodeJs, HTML and CSS - with
+          skills right across the stack - and a mindset fuelled by curiosity and
+          creativity.
+        </p>
+        <p>
+          View my <u>
+            <a
+              href="https://drive.google.com/file/d/1VDLeyn1EnyJPh05-wucJf9D4jXgHBm-c/view?usp=sharing"
+              target="_blank"
+              rel="noopener"
+              >resume
+            </a>
+          </u>
+        </p>
+      </div>
+    </section>
 
-		<section id="projects" data-color="var(--yellow)">
-			<h2>projects:</h2>
-			<Projects />
-		</section>
+    <section id="projects" data-color="var(--yellow)">
+      <h2>projects:</h2>
+      <Projects />
+    </section>
 
-		<section id="contact" data-color="var(--green)">
-			<div class="contact-container">
-				<h2>get in touch:</h2>
-				<ul>
-					<li>
-						<a href="https://github.com/Nick-Dalby" target="_blank" rel="noopener">
-							<Icon name="bi:github" width={18} class="contact-icon" />github
-						</a>
-					</li>
-					<li>
-						<a href="https://www.linkedin.com/in/nick-dalby/" target="_blank" rel="noopener">
-							<Icon name="logos:linkedin-icon" width={18} class="contact-icon"
-							/>linkedin
-						</a>
-					</li>
-					<li>
-						<a href="https://twitter.com/nickdalby_" target="_blank" rel="noopener">
-							<Icon name="logos:twitter" width={18} class="contact-icon"
-							/>@nickdalby_
-						</a>
-					</li>
-					<li>
-						<a href="mailto:hello@nickdalby.com">
-							<Icon
-								name="fxemoji:openmailboxraised"
-								width={18}
-								class="contact-icon"
-							/>hello@nickdalby.com
-						</a>
-					</li>
-				</ul>
-			</div>
-			<div class="impressum">
-				<a href="/impressum">impressum</a>
-			</div>
-		</section>
-	</main>
-	<footer>
-		<nav><a href="#about" class="about">about</a></nav>
-		<nav><a href="#contact" class="contact">contact</a></nav>
-	</footer>
+    <section id="tweets" data-color="var(--pink)">
+      <h2>latest tweets:</h2>
+
+      <Tweets />
+    </section>
+
+    <section id="contact" data-color="var(--green)">
+      <div class="contact-container">
+        <h2>get in touch:</h2>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/Nick-Dalby"
+              target="_blank"
+              rel="noopener"
+            >
+              <Icon name="bi:github" width={18} class="contact-icon" />github
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/nick-dalby/"
+              target="_blank"
+              rel="noopener"
+            >
+              <Icon name="logos:linkedin-icon" width={18} class="contact-icon"
+              />linkedin
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/nickdalby_"
+              target="_blank"
+              rel="noopener"
+            >
+              <Icon name="logos:twitter" width={18} class="contact-icon"
+              />@nickdalby_
+            </a>
+          </li>
+          <li>
+            <a href="mailto:hello@nickdalby.com">
+              <Icon
+                name="fxemoji:openmailboxraised"
+                width={18}
+                class="contact-icon"
+              />hello@nickdalby.com
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="impressum">
+        <a href="/impressum">impressum</a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav><a href="#about" class="about">about</a></nav>
+    <nav><a href="#contact" class="contact">contact</a></nav>
+  </footer>
 </Layout>
 <script>
-	import '../scripts/times.js'
+  import '../scripts/times.js'
 </script>
