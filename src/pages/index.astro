@@ -1,7 +1,7 @@
 ---
 import Icon from 'astro-icon'
 import Projects from '../components/Projects.astro'
-import Tweets from '../components/Tweets.astro'
+import Tweets from '../components/Tweets.jsx'
 import Layout from '../layouts/Layout.astro'
 ---
 
@@ -49,7 +49,7 @@ import Layout from '../layouts/Layout.astro'
     <section id="tweets" data-color="var(--pink)">
       <h2>latest tweets:</h2>
 
-      <Tweets />
+      <Tweets client:visible />
     </section>
 
     <section id="contact" data-color="var(--green)">
