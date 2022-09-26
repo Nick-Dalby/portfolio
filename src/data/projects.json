@@ -3,11 +3,10 @@
     "title": "Films Cool:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/fs_e7N2iuSy6.jpg",
     "bgColor": "bg-yellow",
-    "description": "Client-side of a movie database app built with React. Using react-router to navigate views, axios to handle async http requests, redux for state management and styled components.",
+    "description": "Client-side of a movie database app built with React. Using react-router to navigate views, axios to handle async http requests, redux for state management and styled-components.",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
-      ["html", "vscode-icons:file-type-html"],
-      ["css", "vscode-icons:file-type-css"],
+      ["styled-components", "vscode-icons:file-type-styled"],
       ["react", "vscode-icons:file-type-reactjs"],
       ["redux", "logos:redux"]
     ],
@@ -20,7 +19,7 @@
   {
     "title": "React Auth Flow:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/react-auth-flow_coKyKPHM4.jpg",
-    "bgColor": "bg-yellow",
+    "bgColor": "bg-blue",
     "description": "Accessible React form, with validation, authentication and authorisation using JTW, protected routes and custom hooks. Used Axios to call a custom REST APIs endpoints, connected to a MongoDB.",
     "icons": [
       ["mongoDB", "vscode-icons:file-type-mongo"],
@@ -31,6 +30,24 @@
     "links": [
       ["github", "https://github.com/Nick-Dalby/react-auth-flow", "_blank"],
       ["demo", "https://tranquil-cat-2f4ccd.netlify.app/", "_blank"]
+    ]
+  },
+  {
+    "title": "Workshop Store:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/ws_HC4zKwpfqR.png",
+    "bgColor": "bg-yellow",
+    "description": "Workshop store is a React e-commerce project utilising useContext, useReducer, routing, Auth0 authentication, styled-components and payments via Stripe + Netlify functions.",
+    "icons": [
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["react", "vscode-icons:file-type-reactjs"],
+      ["styled-components", "vscode-icons:file-type-styled"],
+      ["netlify functions", "logos:netlify"],
+      ["Auth0", "logos:auth0-icon"],
+      ["stripe", "logos:stripe"]
+    ],
+    "links": [
+      ["github", "https://github.com/Nick-Dalby/workshop-store", "_blank"],
+      ["demo", "https://workshop-store.netlify.app/", "_blank"]
     ]
   },
 

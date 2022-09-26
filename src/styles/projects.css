@@ -104,7 +104,8 @@ body {
 }
 
 .project-image {
-  border: 2px solid var(--gray-9);
+  outline: 2px solid var(--gray-9);
+  outline-offset: -2px;
 }
 
 .project-footer {
