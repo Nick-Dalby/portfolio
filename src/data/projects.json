@@ -211,10 +211,10 @@
     "bgColor": "bg-yellow",
     "description": "React Native mobile chat app utilising the gifted chat library, built with Expo and a Firebase Firestore database.",
     "icons": [
-      ["typescript", "logos:typescript-icon"],
-      ["angular", "vscode-icons:file-type-angular"],
-      ["nodejs", "logos:nodejs"],
-      ["mongoDB", "vscode-icons:file-type-mongo"]
+      ["react native", "vscode-icons:file-type-reactjs"],
+      ["firebase", "vscode-icons:file-type-firebase"],
+      ["firestore", "vscode-icons:file-type-firestore"],
+      ["expo", "vscode-icons:file-type-expo"]
     ],
     "links": [
       ["github", "https://github.com/Nick-Dalby/Chat-App", "_blank"],
