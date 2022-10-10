@@ -265,3 +265,7 @@ section#tweets {
   align-self: flex-end;
   margin-top: auto;
 }
+
+.resume a {
+  text-decoration: underline;
+}
