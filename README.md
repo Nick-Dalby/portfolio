@@ -11,6 +11,7 @@ Personal portflio built with Astro 🚀
 **Tech used:** HTML, CSS, JavaScript, React, [Astro](https://astro.build/), [Open-props](https://open-props.style/)
 
 Responsive portfolio page build with Astro...
+
 Features:
 
 - Astro layout and prop passing
