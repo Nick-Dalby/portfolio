@@ -1,6 +1,6 @@
 # My Portfolio!
 
-Personal portflio built with Astro 🚀
+Personal portfolio built with Astro 🚀
 
 **Live site:** [nickdalby.com](https://nickdalby.com/)
 
