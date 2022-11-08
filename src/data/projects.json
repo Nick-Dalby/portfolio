@@ -6,7 +6,7 @@
     "description": "CRUD Blog app built with NextJs, Firebase Auth, Firestore, reactive forms with react-hook-form, react-markdown, image file uploads, plus SSR, SSG, and ISR techniques ",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
-      ["nextJs", "logos:nextjs-icon"],
+      ["nextJS", "logos:nextjs-icon"],
       ["react", "vscode-icons:file-type-reactjs"],
       ["firebase", "vscode-icons:file-type-firebase"]
     ],
