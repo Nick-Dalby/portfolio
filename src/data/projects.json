@@ -2,7 +2,7 @@
   {
     "title": "Poster:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/poster_8leObXFRb.png",
-    "bgColor": "bg-pink",
+    "bgColor": "bg-blue",
     "description": "CRUD Blog app built with NextJs, Firebase Auth, Firestore, reactive forms with react-hook-form, react-markdown, image file uploads, plus SSR, SSG, and ISR techniques ",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
@@ -18,6 +18,28 @@
       ],
 
       ["demo", "https://poster-a-place-to-post.vercel.app/", "_blank"]
+    ]
+  },
+  {
+    "title": "Finsta:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/finsta_rIcRnE9Xbt.png",
+    "bgColor": "bg-pink",
+    "description": "Insta-like site built with NextJs, Tailwind and Firebase. Allows users to sign-in with Google, post photos with captions, comment and like other users posts",
+    "icons": [
+      ["nextJS", "logos:nextjs-icon"],
+      ["react", "vscode-icons:file-type-reactjs"],
+      ["javascript", "vscode-icons:file-type-js-official"],
+      ["tailwind", "logos:tailwindcss-icon"],
+      ["firebase", "vscode-icons:file-type-firebase"]
+    ],
+    "links": [
+      [
+        "github",
+        "https://github.com/Nick-Dalby/finsta",
+        "_blank"
+      ],
+
+      ["demo", "https://finsta-zeta.vercel.app/", "_blank"]
     ]
   },
   {
@@ -40,7 +62,7 @@
   {
     "title": "React Auth Flow:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/react-auth-flow_coKyKPHM4.jpg",
-    "bgColor": "bg-blue",
+    "bgColor": "bg-pink",
     "description": "Accessible React form, with validation, authentication and authorisation using JTW, protected routes and custom hooks. Used Axios to call a custom REST APIs endpoints, connected to a MongoDB.",
     "icons": [
       ["mongoDB", "vscode-icons:file-type-mongo"],
@@ -114,7 +136,7 @@
   {
     "title": "DeepL Translator:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/translator_Ch43ioRksC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663255656325",
-    "bgColor": "bg-blue",
+    "bgColor": "bg-yellow",
     "description": "A quick React app to explore the DeepL text translator API. Using an express server as a relay to call the API, securing the auth key and adding a rate limiter. ",
     "icons": [
       ["javascript", "vscode-icons:file-type-js-official"],
