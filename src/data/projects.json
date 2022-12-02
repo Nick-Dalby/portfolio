@@ -33,11 +33,7 @@
       ["firebase", "vscode-icons:file-type-firebase"]
     ],
     "links": [
-      [
-        "github",
-        "https://github.com/Nick-Dalby/finsta",
-        "_blank"
-      ],
+      ["github", "https://github.com/Nick-Dalby/finsta", "_blank"],
 
       ["demo", "https://finsta-zeta.vercel.app/", "_blank"]
     ]
@@ -72,14 +68,23 @@
       ["apollo", "simple-icons:apollographql"]
     ],
     "links": [
-      [
-        "github",
-        "https://github.com/Nick-Dalby/breadit",
-        "_blank"
-      ],
+      ["github", "https://github.com/Nick-Dalby/breadit", "_blank"],
 
       ["demo", "https://breadit.vercel.app", "_blank"]
     ]
+  },
+  {
+    "title": "Son of Kong:",
+    "image": "https://ik.imagekit.io/o8k4oijpo/projects/sok_2KZKGiiVC.png",
+    "bgColor": "bg-yellow",
+    "description": "React landing page for super-group 'Son of Kong', using threeJS to render floating bananas and linking to their online platforms. Work in progress...",
+    "icons": [
+      ["react", "vscode-icons:file-type-reactjs"],
+      ["typescript", "logos:typescript-icon"],
+      ["tailwind", "logos:tailwindcss-icon"],
+      ["threejs", "threejs"]
+    ],
+    "links": [["live", "https://sonofkong.co/", "_blank"]]
   },
   {
     "title": "React Auth Flow:",
@@ -153,7 +158,6 @@
       ["demo", "https://rays-pizza.netlify.app/", "_blank"]
     ]
   },
-  
 
   {
     "title": "DeepL Translator:",
