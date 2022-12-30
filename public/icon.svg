@@ -1,7 +1,1 @@
-<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="400" height="400" rx="50" fill="#CFF9DA"/>
-<path d="M110 260C143.137 260 170 233.137 170 200C170 166.863 143.137 140 110 140C76.8629 140 50 166.863 50 200C50 233.137 76.8629 260 110 260Z" stroke="#052837" stroke-width="20"/>
-<path d="M290 260C323.137 260 350 233.137 350 200C350 166.863 323.137 140 290 140C256.863 140 230 166.863 230 200C230 233.137 256.863 260 290 260Z" stroke="#052837" stroke-width="20"/>
-<circle cx="130" cy="190" r="30" fill="#052837"/>
-<circle cx="310" cy="190" r="30" fill="#052837"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" fill="none"><g clip-path="url(#a)"><rect width="400" height="400" fill="#FFE689" rx="200"/><path stroke="#052837" stroke-width="20" d="M110 260c33.137 0 60-26.863 60-60s-26.863-60-60-60-60 26.863-60 60 26.863 60 60 60ZM290 260c33.137 0 60-26.863 60-60s-26.863-60-60-60-60 26.863-60 60 26.863 60 60 60Z"/><circle cx="130" cy="190" r="30" fill="#052837"/><circle cx="310" cy="190" r="30" fill="#052837"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h400v400H0z"/></clipPath></defs></svg>

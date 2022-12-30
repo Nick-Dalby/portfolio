@@ -59,10 +59,10 @@
     "title": "Breadit:",
     "image": "https://ik.imagekit.io/o8k4oijpo/projects/breadit_uslwFjBKk.png",
     "bgColor": "bg-pink",
-    "description": "NextJs, TypeScript & Tailwind reddit-inspired demo. Using apollo client for graphQL queries to fetch data from a postgres database. Users can create posts, leave comments and votes.",
+    "description": "NextJs, TypeScript & Tailwind reddit-inspired demo. Using apollo client for graphQL queries to fetch data from a Supabase postgres database. Users can create posts, leave comments and votes.",
     "icons": [
       ["nextJS", "logos:nextjs-icon"],
-      ["react", "vscode-icons:file-type-reactjs"],
+      ["supabase", "supabase"],
       ["typescript", "logos:typescript-icon"],
       ["tailwind", "logos:tailwindcss-icon"],
       ["apollo", "simple-icons:apollographql"]
